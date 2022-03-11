@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(232, 235, 54);
+}
+.header{
+    width: auto;
+    height: auto;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header>h1>a{
+text-decoration: none;
+}
+.body{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+}
+.body>.box1>h3>a{
+    text-decoration: none;
+    color: black;
+}
+.box1{
+    width: 50%;
+    height: 400px;
+    background-color: rgb(172, 112, 2);
+    margin: 10px;
+    color: white;
+    padding: 20px;
+    border-radius: 25px;
+    overflow-y: scroll;
+}
+.box2>h2{
+    text-align: center;
+}
+.box2{
+    border-radius: 25px;
+    width: 50%;
+    height: 400px;
+    background-color: rgb(172, 112, 2);
+    margin: 10px;
+    color: white;
+    padding: 20px;
+    overflow-y: scroll;
+}
+.body>.box2 h3>a{
+    text-decoration: none;
+    color: black;
+}
+.footer>h2{
+    text-align: center;
+}
+.footer>h2>a{
+    text-decoration: none;
+}
+.contact>h3{
+    text-align: center;
+}
+.contact>h3>a{
+    text-decoration: none;
+    color: black;
+}

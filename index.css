@@ -19,9 +19,19 @@ text-decoration: none;
     width: auto;
     display: flex;
     flex-direction: row;
-    align-content: space-between;
+    align-content: flex-start;
     align-items: center;
 }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .body{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: center;
+    }
+  }
 .body>.box1>h3>a{
     text-decoration: none;
     color: black;
